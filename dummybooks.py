@@ -4,7 +4,7 @@ from database_setup import Base, BookDB, User
 engine = create_engine('sqlite:///BookCatalog.db')
 Base.metadata.bind = engine
 
-DBSession = sessionmaker(bind=engine)
+DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
 # Create user details
