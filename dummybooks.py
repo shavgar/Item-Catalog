@@ -53,6 +53,3 @@ book5 = BookDB(Book_Title="The Handmaid's Tale",
 
 session.add(book5)
 session.commit()
-
-
-print ("The Listed Books")
